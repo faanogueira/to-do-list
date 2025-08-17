@@ -1,72 +1,109 @@
-<!-- Início da seção de introdução -->
-<h1>🚀 Lista de Tarefas (To-do list) &lt;Primeiro Código&gt; 📝</h1>
-<p>Este repositório consiste no desenvolvimento de uma aplicação web capaz de registrar usuários, armazenar dados locais, fazer login e gerenciar de tarefas. O projeto foi criado como trabalho final da disciplina de <b>Front-End Dinâmico</b> do curso de Desenvolvimento Web Front-End &lt;Primeiro Código&gt;.</p> 
-<!-- Fim da seção de introdução -->
+# To-do List | Projeto Final <Primeiro Código>
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![Languages](https://img.shields.io/github/languages/top/niwanbernardo/todo-list?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
 
-<!-- Início da seção de demonstração -->
-<h2>🎥 Demonstração: </h2>
-<a href="https://niwanbernardo.github.io/todo-list/"><img src="https://i.postimg.cc/XqtQ3ZK3/login-todo.png" width="400" height="400" alt="Imagem do login" ></a>
-<a href="https://niwanbernardo.github.io/todo-list/"><img src="https://i.postimg.cc/yxzYgjyb/todo-list.png" width="500" height="400" alt="Imagem das tarefas" ></a>
-<!-- Fim da seção de demonstração -->
+<br>
 
+> Aplicação web de lista de tarefas com cadastro e login de usuários, desenvolvida como projeto final para a disciplina de Front-End Dinâmico do curso de Desenvolvimento Web Front-End <Primeiro Código>.
 
-<!-- Início da seção de usos -->
-<h2>💻 Tecnologias utilizadas: </h2>
-<p>
-  <img align="center" alt="html" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img align="center" alt="css" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img align="center" alt="js" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<br>
+
+<p align="center">
+  <a href="https://faanogueira.github.io/todo-list/">
+    <img src="https://github.com/faanogueira/to-do-list/blob/main/assets/login.png" width="400" alt="Imagem da tela de login">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://faanogueira.github.io/todo-list/">
+    <img src="https://github.com/faanogueira/to-do-list/blob/main/assets/lista.png" width="400" alt="Imagem da tela de tarefas">
+  </a>
 </p>
-<!-- Fim da seção de usos -->
 
+---
 
-<!-- Início da seção de usos -->
-<h2>🎮 Como utilizar: </h2>
-<p>Para iniciar a aplicação, é possível acessá-la através do <a href="https://niwanbernardo.github.io/todo-list/">link do projeto</a> ou baixar os arquivos do repositório e executar o documento <code>index.html</code>.</p>
-<!-- Fim da seção de usos -->
+## 📋 Índice
 
-<!-- Início da seção de funcionalidades -->
-<h2>⚙️ Funcionalidades: </h2>
-<ul>
-  <li><b>Cadastro de Usuário:</b> Os usuários podem se cadastrar no site fornecendo um nome de
-usuário e uma senha. Os dados de usuário são armazenados localmente usando o
-localStorage.
-</li>
-  <br>
-  <li><b>Login de Usuário:</b> Os usuários registrados podem fazer login usando seu nome de usuário
-e senha. O site verifica as credenciais e permite o acesso aos recursos do usuário
-autenticado.
-</li>
-  <br>
-    <li><b>Criação de Tarefas:</b> Os usuários podem criar tarefas, atribuir prazos e descrições a cada
-uma delas.</li>
-</ul>
-<!-- Fim da seção de funcionalidades -->
+- [📍 Sobre o Projeto](#-sobre-o-projeto)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [🚀 Como Executar](#-como-executar)
+- [⚖️ Licença](#️-licença)
 
+---
+
+## 📍 Sobre o Projeto
+
+O projeto é uma aplicação de **Lista de Tarefas (To-do list)** que permite a usuários se registrarem, fazerem login e gerenciarem suas tarefas de forma simples e eficiente. Todos os dados são salvos localmente no navegador, utilizando a `localStorage` API.
+
+Esta aplicação foi criada para aplicar os conceitos aprendidos na disciplina de **Front-End Dinâmico**, focando na manipulação de dados, eventos e armazenamento no lado do cliente.
+
+---
+
+## ✨ Funcionalidades
+
+-   **👤 Autenticação de Usuários:**
+    -   Cadastro de novos usuários com nome e senha.
+    -   Login para usuários já registrados.
+    -   Armazenamento seguro dos dados de usuário na `localStorage`.
+-   **📝 Gerenciamento de Tarefas:**
+    -   Criação de novas tarefas.
+    -   Atribuição de descrições e prazos para cada tarefa.
+    -   Interface intuitiva para visualização e controle das tarefas.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
+
+| Ferramenta | Descrição |
+| :--- | :--- |
+| **HTML5** | Linguagem de marcação para a estrutura das páginas. |
+| **CSS3** | Linguagem de estilização para o design da aplicação. |
+| **JavaScript** | Linguagem de programação para a interatividade e lógica do front-end. |
+
+---
+
+## 🚀 Como Executar
+
+Existem duas maneiras de utilizar a aplicação:
+
+1.  **Acesso Online (Recomendado)**
+    -   Basta acessar o link da aplicação publicado no GitHub Pages:
+    -   <https://faanogueira.github.io/to-do-list/>
+
+2.  **Executando Localmente**
+    -   Clone este repositório para a sua máquina local:
+      ```sh
+      git clone [https://github.com/faanogueira/to-do-list.git](https://github.com/faanogueira/to-do-list.git)
+      ```
+    -   Navegue até o diretório do projeto.
+    -   Abra o arquivo `index.html` no seu navegador de preferência.
+
+---
+
+## ⚖️ Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+Qualquer pessoa pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, sem restrições.
+
+---
 
 <!-- Início da seção "Contato" -->
-<h2>🌐 Contato: </h2>
+<h2>🌐 Contate-me: </h2>
+<div>
+  <p>Developed by <b>Fábio Nogueira</b></p>
+</div>
 <p>
-<a href="https://www.linkedin.com/in/niwanbernardo/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" height=25> </a>
-<a href="https://api.whatsapp.com/send?phone=5511991359164" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank" height=25></a>
-<a href="https://www.instagram.com/devniwan/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" target="_blank" height=25></a> 
-<a href="https://github.com/niwanbernardo" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" target="_blank" height=25 /></a>
+<a href="https://www.linkedin.com/in/faanogueira/" target="_blank"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" target="_blank" width="80"></a>
+<a href="https://github.com/faanogueira" target="_blank"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" target="_blank" width="80"></a>
+<a href="https://api.whatsapp.com/send?phone=5571983937557" target="_blank"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" target="_blank" width="80"></a>
+<a href="mailto:faanogueira@gmail.com"><img style="padding-right: 10px;" src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" target="_blank" width="80"></a> 
 </p>
 <!-- Fim da seção "Contato" -->
-
-
-<!-- Início da seção de licença -->
-<h2>⚖️ Licença (MIT): </h2>
-<p> Qualquer pessoa que obtenha uma cópia do software e seus arquivos de documentação associados pode lidar com eles sem restrição, incluindo sem limitação os direitos a usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software. </p>
-<!-- Fim da seção de licença -->
-
 <br>
-<br>
-
-<!-- Início da seção "Finalização" -->
-<div align="center">
-  <p>Feito com :heart: por <b>Niwan Bernardo</b>, <b>Victor Hugo</b> e <b>Deyvid Fernandes</b>.</p>
-  <p>Deixe uma :star: no projeto.</p>
-</div>
-<!-- Fim da seção "Finalização" -->
+<p align="center">
+  Deixe uma ⭐ no projeto se você gostou!
+</p>
